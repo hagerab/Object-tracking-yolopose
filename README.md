@@ -22,18 +22,6 @@ This project provides a Python-based solution for tracking single or multiple pe
    - **Multi-Person Mode**: Tracks all detected individuals, assigning unique IDs and maintaining separate movement paths.
 4. **Visualization**: Draws bounding boxes and trajectories on video frames, saving the output as a new video file.
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-name>
-   ```
-2. Install dependencies:
-   ```bash
-   pip install ultralytics
-   ```
-3. Ensure OpenCV, PyTorch, and NumPy are installed (typically included with Ultralytics).
-
 ## Usage
 1. Open Google Colab and create a new notebook.
 2. Upload the project files, including the script (`Object tracking.ipynb`) and your input video (e.g., `people.mp4`), to your Colab environment:
