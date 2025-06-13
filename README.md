@@ -35,12 +35,13 @@ This project provides a Python-based solution for tracking single or multiple pe
 3. Ensure OpenCV, PyTorch, and NumPy are installed (typically included with Ultralytics).
 
 ## Usage
-1. Place your input video (e.g., `people.mp4`) in the project directory.
-2. Run the part of the script to select single-person or multi-person tracking mode (see code comments for configuration).
-3. Run the script:
+1. Open Google Colab and create a new notebook.
+2. Upload the project files, including the script (`Object tracking.ipynb`) and your input video (e.g., `people.mp4`), to your Colab environment:
+   - Click the folder icon in the left sidebar.
+   - Drag and drop people.mp4 and track.py into the file explorer.
+3. Install required dependencies in a Colab cell:
    ```bash
-   python track.py
+   pip install ultralytics
    ```
-4. The output video (`output_video.mp4`) will be generated with annotated tracking information.
-
-
+4. Run the whole script in Colab
+5. Download the output video (output_video.mp4),(multiple.mp4) from the Colab file explorer by right-clicking and selecting "Download".
